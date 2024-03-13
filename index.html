@@ -5,12 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>BMI Calculator</title>
   <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
   <div class="container">
     <div class="header">
       <h1><i class="fas fa-calculator"></i> BMI Calculator</h1>
+      <button id="darkModeToggle">Dark Mode</button>
     </div>
     <div class="form">
       <div class="input-group">
@@ -37,6 +38,7 @@
         <h2>Interpretation</h2>
         <p id="interpretation">---</p>
       </div>
+      <div id="nutritionalInfo"></div>
     </div>
   </div>
   <script src="script.js"></script>
