@@ -7,12 +7,12 @@ body {
 }
 
 .container {
-  max-width: 500px;
+  max-width: 800px; /* Increased max-width for better readability */
   margin: 50px auto;
-  padding: 20px;
-  border-radius: 10px;
+  padding: 40px; /* Increased padding for better spacing */
+  border-radius: 20px; /* Increased border radius for a softer look */
   background-color: #fff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Increased box-shadow for depth */
 }
 
 .header {
@@ -21,9 +21,8 @@ body {
 
 .header h1 {
   margin: 0;
-  padding: 10px;
+  padding: 20px; /* Increased padding for better spacing */
   color: #333; /* Default title color */
-  display: inline-block; /* Make the h1 element inline-block to center it */
 }
 
 .dark-mode .header h1 {
@@ -31,17 +30,17 @@ body {
 }
 
 .form {
-  margin-bottom: 20px;
+  margin-bottom: 40px; /* Adjusted spacing between form and result */
 }
 
 .input-group {
-  margin-bottom: 20px; /* Adjusted spacing between input groups */
+  margin-bottom: 30px; /* Adjusted spacing between input groups */
   text-align: center; /* Center align input elements */
 }
 
 .input-group label {
   display: block;
-  margin-bottom: 5px;
+  margin-bottom: 10px; /* Adjusted margin for better spacing */
   color: #555;
   font-weight: bold;
   text-align: left; /* Adjust label alignment */
@@ -49,19 +48,19 @@ body {
 
 .input-group input[type="number"] {
   width: calc(100% - 24px);
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+  padding: 15px; /* Increased padding for better input area */
+  border: 2px solid #ccc; /* Increased border width for visibility */
+  border-radius: 10px; /* Increased border radius for a softer look */
   box-sizing: border-box;
 }
 
 button {
   width: 100%;
-  padding: 10px;
+  padding: 15px; /* Increased padding for better button size */
   background-color: #007bff;
   color: white;
   border: none;
-  border-radius: 5px;
+  border-radius: 10px; /* Increased border radius for a softer look */
   cursor: pointer;
 }
 
@@ -74,8 +73,8 @@ button:hover {
 }
 
 .output p {
-  font-size: 24px;
-  margin-top: 10px;
+  font-size: 28px; /* Increased font size for better visibility */
+  margin-top: 20px; /* Adjusted margin for better spacing */
   font-weight: bold;
 }
 
@@ -84,10 +83,10 @@ button:hover {
 }
 
 .bmi-scale {
-  height: 10px;
+  height: 15px; /* Increased height for better visibility */
   background-color: #007bff; /* Default color */
-  margin-top: 10px;
-  border-radius: 5px;
+  margin-top: 20px; /* Adjusted margin for better spacing */
+  border-radius: 7px; /* Increased border radius for a softer look */
 }
 
 .dark-mode {
@@ -124,5 +123,5 @@ button:hover {
 }
 
 button#darkModeToggle {
-  margin-bottom: 10px; /* Adjust margin bottom as needed */
+  margin-bottom: 20px; /* Adjust margin bottom as needed */
 }
